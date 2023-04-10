@@ -11,7 +11,7 @@ echo "
 echo ""
 echo "The Proxies found:"
 echo ""
-U=('https://www.sslproxies.org/' 'https://free-proxy-list.net/' 'https://www.us-proxy.org/')
+U=('https://free-proxy-list.net/' 'https://www.us-proxy.org/')
 for U in "${U[@]}"; do
     IP=$(curl -s "$U" | grep -E -o '<td>[0-9]+(\.[0-9]+){3}</td>\s*<td>[0-9]+</td>')
     while IFS= read -r L; do
