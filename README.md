@@ -14,6 +14,9 @@ bash Panzer.sh
 The tool will display a list of working proxies it finds. By default, the tool will save the proxies to a file named proxies.txt in the same directory as the script.
 
 
+## Output
+
+![Alt text](panzer.png "Panzer Preview") <br>
 
 ## Dependencies
 ProxyFinder is written in Bash and uses the following command-line tools:<br>
@@ -25,9 +28,6 @@ awk
 These tools should be pre-installed on most Unix-based operating systems, but if you encounter any issues, please ensure that these dependencies are installed on your system.
 <br>
 
-## Output
-
-![Alt text](panzer.png "Panzer Preview")
 
 ## Customizing <br>
 You can customize the tool by editing the panzer.sh script. The script uses an array of URLs to search for proxies, and you can add or remove URLs as desired.
