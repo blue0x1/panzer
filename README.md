@@ -19,7 +19,7 @@ The tool will display a list of working proxies it finds. By default, the tool w
 ![Alt text](panzer.png "Panzer Preview") <br>
 
 ## Dependencies
-ProxyFinder is written in Bash and uses the following command-line tools:<br>
+Panzer ProxyFinder is written in Bash and uses the following command-line tools:<br>
 
 curl <br>
 grep<br>
@@ -33,4 +33,4 @@ These tools should be pre-installed on most Unix-based operating systems, but if
 You can customize the tool by editing the panzer.sh script. The script uses an array of URLs to search for proxies, and you can add or remove URLs as desired.
 
 ## License <br>
-ProxyFinder is licensed under the MIT License. Please see the [LICENSE](https://github.com/blue0x1/panzer/blob/main/LICENSE) file for more information.
+Panzer ProxyFinder is licensed under the MIT License. Please see the [LICENSE](https://github.com/blue0x1/panzer/blob/main/LICENSE) file for more information.
